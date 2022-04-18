@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion"
 import { useSelector } from "react-redux"
 import { selectUser } from './features/userSlice'
-import MenuLink from './MenuLink'
+import { MenuLink } from './MenuLink'
 import  FindAStore from './FindAStore'
 import SignInButton from './SignInButton'
 import SignUpButton from './SignUpButton'
