@@ -15,7 +15,7 @@ import { login } from '../features/userSlice'
 
 
 function LoginScreen() {
-    const { register, handleSubmit, watch, errors } = useForm()
+    const { register, handleSubmit, errors } = useForm()
     const [passwordShown, setPasswordShown] = useState(false)
     const dispatch = useDispatch()
 

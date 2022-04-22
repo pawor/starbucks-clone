@@ -121,4 +121,3 @@ export const Footer = () => {
         </>
     )
 }
-const accordionIds = [0, 1, 2, 3]
